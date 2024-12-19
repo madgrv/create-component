@@ -20,7 +20,8 @@ This project is a CLI tool that allows you to quickly scaffold new components. A
 <br />
 
 ## Quickstart
-copy the repository locally, and run ```npm i npm link```
+copy the repository locally, and run: 
+```npm i npm link```
 
 cd to your current working project folder and run:
 ```bash
