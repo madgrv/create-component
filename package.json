@@ -1,0 +1,36 @@
+{
+  "name": "create-component",
+  "version": "1.0.0",
+  "description": "A CLI utility to create new React components",
+  "homepage": "https://github.com/madgrv/create-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madgrv/create-component"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node index.js"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "cli",
+    "component",
+    "boilerplate"
+  ],
+  "bin": {
+    "create-component": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "commander": "10",
+    "prettier": "2.8.4",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "15.2.11"
+  },
+  "prettierConfig": ".prettierrc.json"
+}
