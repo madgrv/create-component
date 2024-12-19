@@ -72,18 +72,6 @@ These files will be formatted according to your Prettier configuration.
 <br />
 
 ### Coming soon:
-## Configuration
-
-Configuration can be done through 3 different ways:
-
-- Creating a global `.create-component-config.json` in your home directory (`~/.create-component-config.json`).
-- Creating a local `.create-component-config.json` in your project's root directory.
-- Command-line arguments.
-
-The resulting values are merged, with command-line values overwriting local values, and local values overwriting global ones.
-
-<br />
-
 ### Directory
 
 Controls the desired directory for the created component. Defaults to `src/components`
