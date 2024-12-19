@@ -20,21 +20,11 @@ This project is a CLI tool that allows you to quickly scaffold new components. A
 <br />
 
 ## Quickstart
+copy the repository locally, and run ```npm i npm link```
 
-Install via NPM:
-
+cd to your current working project folder and run:
 ```bash
-# Using Yarn:
-$ yarn global add new-component
-
-# or, using NPM
-$ npm i -g new-component
-```
-
-`cd` into your project's directory, and try creating a new component:
-
-```bash
-$ new-component MyNewComponent
+$ create-component MyNewComponent
 ```
 
 Your project will now have a new directory at `src/components/MyNewComponent`. This directory has three files:
@@ -61,6 +51,21 @@ export const MyNewComponentContainer = styled.div`
 `;
 ```
 
+### Coming soon:
+Install via NPM:
+
+```bash
+using NPM
+$ npm i -g create-component
+```
+
+`cd` into your project's directory, and try creating a new component:
+
+```bash
+$ create-component MyNewComponent
+```
+
+
 These files will be formatted according to your Prettier configuration.
 
 <br />
@@ -70,8 +75,8 @@ These files will be formatted according to your Prettier configuration.
 
 Configuration can be done through 3 different ways:
 
-- Creating a global `.new-component-config.json` in your home directory (`~/.new-component-config.json`).
-- Creating a local `.new-component-config.json` in your project's root directory.
+- Creating a global `.create-component-config.json` in your home directory (`~/.create-component-config.json`).
+- Creating a local `.create-component-config.json` in your project's root directory.
 - Command-line arguments.
 
 The resulting values are merged, with command-line values overwriting local values, and local values overwriting global ones.
