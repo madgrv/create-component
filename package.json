@@ -25,6 +25,8 @@
   "dependencies": {
     "chalk": "4",
     "commander": "10",
+    "link": "^2.1.1",
+    "npm": "^10.9.2",
     "prettier": "2.8.4",
     "styled-components": "^6.1.13"
   },
