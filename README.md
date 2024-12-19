@@ -85,12 +85,3 @@ JSON config: `{ "dir": <value> }`
 ## Platform Support
 
 This has only been tested in macOS.
-<br />
-
-## Known Issues
-
-If you try to use this package with the Next.js App Router, you’ll run into an error:
-
-```md
-**Syntax error:** the name `default` is exported multiple times
-```
