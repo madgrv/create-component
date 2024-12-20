@@ -50,6 +50,25 @@ export const MyNewComponentContainer = styled.div`
 `;
 ```
 
+### Directory
+
+Controls the desired directory for the created component. Defaults to `src/components`
+
+example CLI command:
+```bash
+create-component -d src/components/_common MyNewComponent
+```
+
+
+**Usage:**
+
+Command line: `--dir <value>` or `-d <value>`
+
+JSON config: `{ "dir": <value> }`
+<br />
+
+
+
 ### Coming soon:
 Install via NPM:
 
@@ -85,18 +104,6 @@ describe('MyNewComponent component', () => {
 });
 
 ```
-
-
-### Directory
-
-Controls the desired directory for the created component. Defaults to `src/components`
-
-**Usage:**
-
-Command line: `--dir <value>` or `-d <value>`
-
-JSON config: `{ "dir": <value> }`
-<br />
 
 
 ## Platform Support
