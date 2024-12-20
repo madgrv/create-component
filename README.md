@@ -71,7 +71,7 @@ These files will be formatted according to your Prettier configuration.
 
 ## Coming soon:
 ### Add test file
-Support command to optionally create a `.spec.tsx` test file to the component folder 
+Support command to optionally create a `.spec.tsx` test file to the component folder, with relevant boilerplate setup. 
 
 ### Directory
 
