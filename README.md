@@ -73,6 +73,21 @@ These files will be formatted according to your Prettier configuration.
 ### Add test file
 Support command to optionally create a `.spec.tsx` test file to the component folder, with relevant boilerplate setup. 
 
+```jsx
+import { render } from 'src/tests/helpers';
+
+import { MyNewComponent } from './MyNewComponent';
+
+describe('MyNewComponent component', () => {
+    it('should render MyNewComponent successfully', () => {
+        // test logic
+    });
+});
+3;
+
+```
+
+
 ### Directory
 
 Controls the desired directory for the created component. Defaults to `src/components`
