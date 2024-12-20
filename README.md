@@ -83,7 +83,6 @@ describe('MyNewComponent component', () => {
         // test logic
     });
 });
-3;
 
 ```
 
