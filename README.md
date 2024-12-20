@@ -69,7 +69,10 @@ These files will be formatted according to your Prettier configuration.
 
 <br />
 
-### Coming soon:
+## Coming soon:
+### Add test file
+Support command to optionally create a `.spec.tsx` test file to the component folder 
+
 ### Directory
 
 Controls the desired directory for the created component. Defaults to `src/components`
